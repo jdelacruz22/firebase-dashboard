@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Soul Kickz</title>
+
+    <script type="module" src="js/write.js"></script>
+</head>
+<body>
+    
+    <header>
+        <div class="inner-container">
+            <div class="logo-container">
+                <img src="./img/company-logo.png" alt="Jordan 1 Chicago">
+                <h1>Soul Kickz</h1>
+            </div>
+
+            <nav>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="">AddProducts</a></li>
+                    <li><a href="#">Contacts</a></li>
+                </ul>
+            </nav>
+
+            <img class="shopping-cart-logo" src="./img/shopping-cart-logo.png" alt="Shopping Cart">
+            
+        </div>
+    </header>
+
+    <section>
+        <div class="inner-container">
+
+            <form class="write-product" action="" method="POST">
+
+                <div class="add-image-form">
+                    <img src="./img/jordan-1-mid-black.png" alt="Add Image form">
+                </div>
+                <label for="shoeImage">Select Image</label>
+                <input type="file" id="shoeImage" class="select-file" accept=".jpg, .png, .jpeg, .webp">
+
+                <label for="shoe_name">Shoe Name</label>
+                <input type="text" name="shoe_name" id="shoe_name">
+
+                <label for="shoe_size">Shoe Size</label>
+                <input type="number" name="shoe_size" id="shoe_size">
+
+                <label for="shoe_price">Price</label>
+                <input type="number" name="shoe_price" id="shoe_price">
+
+                <input type="submit" name="form-submit" value="Add Prodcut">
+            </form>
+        </div>
+    </section>
+</body>
+</html>
